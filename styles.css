@@ -1,0 +1,65 @@
+body {
+    margin: 0 auto;
+}
+
+nav {
+    min-width: 215px;
+    margin: 10px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    margin: 0 55px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:first-child:before {
+    content: '🦸';
+}
+
+nav :last-child:before {
+    content: '🦸🏿‍♂️';
+}
+
+nav a:nth-child(2):before {
+    content: '😁';
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.img_main {
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    margin: 20px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.links > li {
+    margin: auto 19.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    min-width: 100px;
+    padding: 20px;
+}
