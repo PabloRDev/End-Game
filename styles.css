@@ -33,14 +33,8 @@ nav a:nth-child(2):before {
 .hero {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-
-.img_main {
-    max-width: 1024px;
-    display: flex;
     align-items: center;
+    text-align: center;
 }
 
 .links {
