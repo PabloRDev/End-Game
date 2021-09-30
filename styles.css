@@ -1,21 +1,26 @@
-body {
+/* https://areajugones.sport.es/cine/vengadores-endgame-14-curiosidades-y-referencias-a-los-comics-que-no-sabias/ */
+/* GLOBAL STYLING */
+* {
   margin: 0;
   padding: 0;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: #6b717e;
   font-weight: 600;
 }
 
 a:hover {
-  color: white;
+  color: black;
   font-weight: 900;
 }
 
+/* NAV */
 .nav_container {
   padding: 5px 15px;
+  background-color: #efaac450;
+  border-bottom: 1px solid #6b717e;
 }
 
 .nav_content {
@@ -23,7 +28,7 @@ a:hover {
   margin: 0 auto;
   padding: 2px 0px;
   list-style: none;
-  font-size: 0.9em;
+  font-size: 1.3em;
   letter-spacing: 3px;
   display: flex;
   justify-content: space-evenly;
@@ -36,62 +41,29 @@ a:hover {
   padding: 0.4rem;
 }
 
-.nav_items:hover {
-  background-color: rgb(0, 0, 0.5);
-}
-
-/* https://areajugones.sport.es/cine/vengadores-endgame-14-curiosidades-y-referencias-a-los-comics-que-no-sabias/ */
-
+/* HERO */
 .hero_container {
   width: 100%;
-  margin: 0 auto;
   padding: 0 50px;
-  font-size: 1.1rem;
   font-style: italic;
   letter-spacing: 2px;
   line-height: 1;
-  background-color: #b3b0c050;
   flex-wrap: wrap;
   box-sizing: border-box;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
 }
 
-.hero_text {
-  margin: 5px;
+.hero_text1 {
+  font-size: 2rem;
+  margin: 20px;
+}
+
+.hero_text2 {
+  font-size: 1.2em;
+  margin: 10px;
 }
 
 .hero_img {
   width: 100%;
-}
-
-#img_txb {
-  font-size: 1.1em;
-  letter-spacing: 1px;
-  line-height: inherit;
-  flex-wrap: wrap;
-}
-
-.links {
-  margin: 20px;
-  list-style-type: none;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.wrap {
-  flex-wrap: wrap;
-}
-
-.links > li {
-  height: 30px;
-  margin: auto 19.5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: aqua;
-  min-width: 100px;
-  padding: 20px;
 }
