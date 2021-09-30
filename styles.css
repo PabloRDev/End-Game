@@ -1,37 +1,43 @@
 /* https://areajugones.sport.es/cine/vengadores-endgame-14-curiosidades-y-referencias-a-los-comics-que-no-sabias/ */
 
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;1,600&display=swap');
+
 /* GLOBAL STYLING */
 * {
   margin: 0;
   padding: 0;
 }
 
+body {
+  background-color: #941c2e21;
+  font-family: 'Titillium Web', sans-serif;
+}
+
 a {
   text-decoration: none;
-  color: #6b717e;
+  color: white;
   font-weight: 600;
 }
 
 a:hover {
+  cursor: pointer;
   color: black;
   font-weight: 900;
 }
 
 /* NAV */
 .nav_container {
-  padding: 5px 15px;
-  background-color: #efaac450;
-  border-bottom: 1px solid #6b717e;
+  background-color: #941C2F;
+  box-shadow: #941c2e10 0px 5px;
 }
 
 .nav_content {
-  max-width: 80%;
-  margin: 0 auto;
-  padding: 2px 0px;
+  padding: 5px 0px;
+  font-size: 1.2em;
+  letter-spacing: 2px;
   list-style: none;
-  font-size: 1.3em;
-  letter-spacing: 3px;
   display: flex;
+  flex: row;
   justify-content: space-evenly;
 }
 
@@ -57,24 +63,35 @@ a:hover {
 }
 
 .hero_text1 {
-  font-size: 2rem;
-  margin: 20px;
+  font-size: 5rem;
+  margin: 60px;
+  text-transform: capitalize;
+}
+
+.hero__text1--span {
+  color: #791423;
+  font-size: 6rem;
 }
 
 .hero_text2 {
-  font-size: 1.2em;
-  margin: 10px;
+  font-size: 2rem;
+  margin: 20px;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.075);
 }
 
 .hero_img {
   width: 100%;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
+/* VIDEO */
 .video {
   width: 100%;
   padding: 0 50px;
-  margin-top: 30px;
-  margin-bottom: 40px;
+  margin-top: 60px;
+  margin-bottom: 80px;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -82,4 +99,56 @@ a:hover {
 
 .video__iframe {
  width: 80%;
+ border-radius: 5px;
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* SECTION */
+.section {
+  width: 100%;
+  padding: 0 50px;
+  letter-spacing: 2px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+.section__article {
+  background-color: #e8eddf3a;
+  padding: 30px;
+}
+
+.section__title {
+  color: #791423;
+  background-color: #79142309;
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.section__copy {
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #000;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer__copy {
+  font-size: 1.2em;
+}
+
+.footer a {
+font-size: 1.5rem;
+text-decoration: underline;
+}
+
+.footer a:hover {
+  color:#941C2F;
 }
